@@ -1,0 +1,239 @@
+/**/
+@font-face {
+    font-family: 'AirFactoryRounded';
+    src: url('../font/AirFactoryRounded.ttf');
+    src: url('../font/AirFactoryRounded-Regular3.eot');
+    src: url('../font/AirFactoryRounded-Regular3.eot?#iefix') format('embedded-opentype'),
+        url('../font/AirFactoryRounded-Regular3.woff2') format('woff2'),
+        url('../font/AirFactoryRounded-Regular3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/**/
+/**/
+
+body {
+    font-family: AirFactoryRounded,
+        'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    background-image: linear-gradient(to bottom right, #7dc2ee, #9a86e4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    padding: 10%;
+    margin: 0;
+    height: 100vh;
+}
+
+/**/
+/**/
+
+.radius-left {
+    border-radius: 3% 0 0 3%;
+}
+
+.radius-right {
+    border-radius: 0 3% 3% 0;
+}
+
+.bloc-form {
+    padding: 3% 4%;
+}
+
+/**/
+/**/
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-start {
+    justify-content: flex-start;
+}
+
+.align-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    justify-content: center;
+}
+
+.align-between {
+    justify-content: space-between;
+}
+
+.align-v-end {
+    align-items: flex-end;
+}
+
+/* 
+.align-v-start {
+    align-items: flex-start;
+}
+
+.align-v-end {
+    align-items: flex-end;
+}
+
+.align-v-center {
+    align-items: center;
+} */
+
+/**/
+/**/
+
+.bg-light {
+    background-color: #ffffff;
+}
+
+.bg-indigo {
+    background-color: #6200d8;
+}
+
+.bg-red {
+    background-color: #fa4343;
+}
+
+.bg-yellow {
+    background-color: #fdda3e;
+}
+
+/**/
+/**/
+
+.text-light {
+    color: #ffffff;
+}
+
+.text-dark {
+    color: #1f1f1f;
+}
+
+.text-blue {
+    color: #3e6eca;
+}
+
+/**/
+/**/
+
+form {
+    width: 100%;
+    border-radius: 3%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+form input,
+select {
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 12px 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+form input:focus,
+select:focus {
+    outline: none;
+}
+
+form fieldset {
+    border: none;
+}
+
+form legend {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+form button {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e5e5e5;
+}
+
+.form-general-information input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.form-general-information select,
+.form-general-information input {
+    color: rgb(0, 0, 0);
+}
+
+.form-contact-details input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.form-contact-details select,
+.form-contact-details input {
+    color: rgb(255, 255, 255);
+}
+
+/**/
+/**/
+.width-100 {
+    width: 100%;
+}
+
+.width-95 {
+    width: 95.5%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-65 {
+    width: 68%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-45 {
+    width: 45%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-25 {
+    width: 21%;
+}
+
+.width-20 {
+    width: 20%;
+}

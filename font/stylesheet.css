@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'AirFactoryRounded 2';
+    src: url('AirFactoryRounded-Regular3.eot');
+    src: url('AirFactoryRounded-Regular3.eot?#iefix') format('embedded-opentype'),
+        url('AirFactoryRounded-Regular3.woff2') format('woff2'),
+        url('AirFactoryRounded-Regular3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

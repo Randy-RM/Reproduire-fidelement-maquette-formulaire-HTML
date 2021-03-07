@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main column align-center">
+        <div class="">
+            <div class="row align-center">
+                <form class="row">
+                    <!---->
+                    <div class="width-50 radius-left bloc-form bg-light text-dark form-general-information">
+                        <!---->
+                        <fieldset>
+                            <legend class="text-blue">General Information</legend>
+                            <div class="row">
+                                <select class="width-100" name="title" id="title">
+                                    <option value="" disabled selected><span>Title</span></option>
+                                    <option value="title1">title1</option>
+                                    <option value="title2">title2</option>
+                                    <option value="title3">title3</option>
+                                </select>
+                            </div><br>
+                            <div class="row align-between width-95">
+                                <div class="width-45">
+                                    <input class="width-100" type="text" name="firstName" id="firstName"
+                                        placeholder="First Name">
+                                </div>
+                                <div class="width-45">
+                                    <input class="width-100" type="text" name="lastName" id="lastName"
+                                        placeholder="Last Name">
+                                </div>
+                            </div><br>
+                            <div class="row">
+                                <select class="width-100" name="position" id="position">
+                                    <option value="" disabled selected><span>Position</span></option>
+                                    <option value="position1">position1</option>
+                                    <option value="position2">position2</option>
+                                    <option value="position3">position3</option>
+                                </select>
+                            </div><br>
+                            <div class="row width-100">
+                                <input class="width-100" type="text" name="company" id="company" placeholder="company">
+                            </div><br>
+                            <div class="row width-100 align-between align-v-end">
+                                <div class="width-50">
+                                    <input class="width-100" type="text" name="businessArena" id="businessArena"
+                                        placeholder="Business Arena">
+                                </div>
+                                <div class="width-40">
+                                    <select class="width-100" name="employees" id="employees">
+                                        <option value="" disabled selected>
+                                            <span class="">Employees</span>
+                                        </option>
+                                        <option value="employee1">employees1</option>
+                                        <option value="employees2">employees2</option>
+                                        <option value="employees3">employees3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <!---->
+                    </div>
+                    <!---->
+                    <!---->
+                    <div class="width-50 radius-right bloc-form bg-indigo text-light form-contact-details">
+                        <!---->
+                        <fieldset>
+                            <legend>Contact Details</legend>
+                            <div class="row width-100">
+                                <input class="width-100" type="text" name="streetAndNr" id="streetAndNr"
+                                    placeholder="street + Nr">
+                            </div><br>
+                            <div class="row width-100">
+                                <input class="width-100" type="text" name="additionalInfo" id="additionalInfo"
+                                    placeholder="Additional Information">
+                            </div><br>
+                            <div class="row width-100 align-between align-v-end">
+                                <div class="width-20">
+                                    <input class="width-100" type="text" name="zipCode" id="zipCode"
+                                        placeholder="Zip Code">
+                                </div>
+
+                                <div class="width-70">
+                                    <select class="width-100" name="place" id="place">
+                                        <option value="" disabled selected>Place</option>
+                                        <option value="place1">place1</option>
+                                        <option value="place2">place2</option>
+                                        <option value="place3">place3</option>
+                                    </select>
+                                </div>
+                            </div><br>
+                            <div class="row">
+                                <select class="width-100" name="country" id="country">
+                                    <option value="" disabled selected>Country</option>
+                                    <option value="country1">country1</option>
+                                    <option value="country2">country2</option>
+                                    <option value="country3">country3</option>
+                                </select>
+                            </div><br>
+                            <div class="row align-between width-95">
+                                <div class="width-25">
+                                    <input class="width-100" type="text" name="code" id="code" placeholder="Code *">
+                                </div>
+
+                                <div class="width-65">
+                                    <input class="width-100" type="tel" name="phoneNumber" id="phoneNumber"
+                                        placeholder="Phone Number">
+                                </div>
+                            </div><br>
+                            <div class="row width-100">
+                                <input class="width-100" type="email" name="email" id="email" placeholder="Your Email">
+                            </div><br>
+                            <div>
+                                <span class="my-radio">
+                                    <input type="radio" name="termsConditions" id="termsConditions">
+                                </span>
+                                <label for="termsConditions">
+                                    I do accept the <strong>Terms and Conditions</strong>
+                                    of your site.
+                                </label>
+                            </div><br>
+                            <div>
+                                <button type="submit">Register Badge</button>
+                            </div>
+                        </fieldset>
+                        <!---->
+                    </div>
+                    <!---->
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
