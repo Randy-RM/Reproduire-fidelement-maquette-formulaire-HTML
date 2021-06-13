@@ -82,22 +82,6 @@ body {
     align-items: flex-end;
 }
 
-/* 
-.align-v-start {
-    align-items: flex-start;
-}
-
-.align-v-end {
-    align-items: flex-end;
-}
-
-.align-v-center {
-    align-items: center;
-} */
-
-/**/
-/**/
-
 .bg-light {
     background-color: #ffffff;
 }
@@ -165,8 +149,8 @@ form button {
     padding: 10px 25px;
     border-radius: 15px;
     background-color: #ffffff;
-    font-weight: 600;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    box-shadow: 0 0 5px rgba(70, 70, 70, 0.6);
     cursor: pointer;
 }
 
@@ -174,7 +158,22 @@ form button:hover {
     background-color: #e5e5e5;
 }
 
+/*form-general-information*/
+
 .form-general-information input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    /* Firefox */
+}
+
+.form-general-information input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(0, 0, 0);
+}
+
+.form-general-information input::-ms-input-placeholder {
+    /* Microsoft Edge */
     color: rgb(0, 0, 0);
 }
 
@@ -183,13 +182,33 @@ form button:hover {
     color: rgb(0, 0, 0);
 }
 
+/*form-contact-details*/
+
 .form-contact-details input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    /* Firefox */
+}
+
+.form-general-information input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+}
+
+.form-general-information input::-ms-input-placeholder {
+    /* Microsoft Edge */
     color: rgb(255, 255, 255);
 }
 
 .form-contact-details select,
 .form-contact-details input {
     color: rgb(255, 255, 255);
+}
+
+/**/
+.terms-conditions {
+    font-weight: bolder;
 }
 
 /**/
